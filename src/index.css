@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-200;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  body.dark {
+    @apply bg-gray-900 text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold dark:text-white;
+  }
+
+  p {
+    @apply dark:text-gray-300;
+  }
+}
