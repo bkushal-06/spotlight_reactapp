@@ -1,4 +1,4 @@
-# spotlight - Modern News Aggregator
+# spotlight - Modern News Aggregator.
 
 ## Setup Instructions
 
